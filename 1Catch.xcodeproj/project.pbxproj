@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2F51D32BC7297C0068E01C /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F51D22BC7297C0068E01C /* StartView.swift */; };
+		8B2F51D52BC7EFF50068E01C /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F51D42BC7EFF50068E01C /* ScoresView.swift */; };
+		8B2F51DA2BC803F30068E01C /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B2F51D62BC803F20068E01C /* Inter-Bold.ttf */; };
+		8B2F51DB2BC803F30068E01C /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B2F51D72BC803F30068E01C /* Inter-Medium.ttf */; };
+		8B2F51DC2BC803F30068E01C /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B2F51D82BC803F30068E01C /* Inter-ExtraBold.ttf */; };
+		8B2F51DD2BC803F30068E01C /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B2F51D92BC803F30068E01C /* Inter-Regular.ttf */; };
 		8B7681CA2BC6A167003B9541 /* _CatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7681C92BC6A167003B9541 /* _CatchApp.swift */; };
 		8B7681CC2BC6A167003B9541 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7681CB2BC6A167003B9541 /* ContentView.swift */; };
 		8B7681CE2BC6A16A003B9541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7681CD2BC6A16A003B9541 /* Assets.xcassets */; };
 		8B7681D12BC6A16A003B9541 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7681D02BC6A16A003B9541 /* Preview Assets.xcassets */; };
+		8B7681D82BC6A430003B9541 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7681D72BC6A430003B9541 /* GameView.swift */; };
+		8B7681DA2BC6A44C003B9541 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7681D92BC6A44C003B9541 /* GameScene.swift */; };
+		8B7681DC2BC6A456003B9541 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7681DB2BC6A456003B9541 /* GameManager.swift */; };
+		8B7681DE2BC6ADA9003B9541 /* FunctionForResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7681DD2BC6ADA9003B9541 /* FunctionForResize.swift */; };
+		8B7681E02BC6BC98003B9541 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7681DF2BC6BC98003B9541 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B2F51D22BC7297C0068E01C /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		8B2F51D42BC7EFF50068E01C /* ScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
+		8B2F51D62BC803F20068E01C /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		8B2F51D72BC803F30068E01C /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		8B2F51D82BC803F30068E01C /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8B2F51D92BC803F30068E01C /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		8B2F51DE2BC804230068E01C /* -Catch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-Catch-Info.plist"; sourceTree = SOURCE_ROOT; };
 		8B7681C62BC6A167003B9541 /* 1Catch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1Catch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7681C92BC6A167003B9541 /* _CatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _CatchApp.swift; sourceTree = "<group>"; };
 		8B7681CB2BC6A167003B9541 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B7681CD2BC6A16A003B9541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B7681D02BC6A16A003B9541 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B7681D72BC6A430003B9541 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		8B7681D92BC6A44C003B9541 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8B7681DB2BC6A456003B9541 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		8B7681DD2BC6ADA9003B9541 /* FunctionForResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionForResize.swift; sourceTree = "<group>"; };
+		8B7681DF2BC6BC98003B9541 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +74,16 @@
 		8B7681C82BC6A167003B9541 /* 1Catch */ = {
 			isa = PBXGroup;
 			children = (
+				8B2F51DE2BC804230068E01C /* -Catch-Info.plist */,
 				8B7681C92BC6A167003B9541 /* _CatchApp.swift */,
 				8B7681CB2BC6A167003B9541 /* ContentView.swift */,
+				8B7681D72BC6A430003B9541 /* GameView.swift */,
+				8B7681D92BC6A44C003B9541 /* GameScene.swift */,
+				8B7681DB2BC6A456003B9541 /* GameManager.swift */,
+				8B7681DF2BC6BC98003B9541 /* BackgroundView.swift */,
+				8B7681DD2BC6ADA9003B9541 /* FunctionForResize.swift */,
+				8B2F51D22BC7297C0068E01C /* StartView.swift */,
+				8B2F51D42BC7EFF50068E01C /* ScoresView.swift */,
 				8B7681CD2BC6A16A003B9541 /* Assets.xcassets */,
 				8B7681CF2BC6A16A003B9541 /* Preview Content */,
 			);
@@ -62,6 +93,10 @@
 		8B7681CF2BC6A16A003B9541 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				8B2F51D62BC803F20068E01C /* Inter-Bold.ttf */,
+				8B2F51D82BC803F30068E01C /* Inter-ExtraBold.ttf */,
+				8B2F51D72BC803F30068E01C /* Inter-Medium.ttf */,
+				8B2F51D92BC803F30068E01C /* Inter-Regular.ttf */,
 				8B7681D02BC6A16A003B9541 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -125,7 +160,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2F51DC2BC803F30068E01C /* Inter-ExtraBold.ttf in Resources */,
+				8B2F51DB2BC803F30068E01C /* Inter-Medium.ttf in Resources */,
+				8B2F51DA2BC803F30068E01C /* Inter-Bold.ttf in Resources */,
 				8B7681D12BC6A16A003B9541 /* Preview Assets.xcassets in Resources */,
+				8B2F51DD2BC803F30068E01C /* Inter-Regular.ttf in Resources */,
 				8B7681CE2BC6A16A003B9541 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +177,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B7681CC2BC6A167003B9541 /* ContentView.swift in Sources */,
+				8B7681DE2BC6ADA9003B9541 /* FunctionForResize.swift in Sources */,
+				8B7681D82BC6A430003B9541 /* GameView.swift in Sources */,
+				8B2F51D32BC7297C0068E01C /* StartView.swift in Sources */,
+				8B2F51D52BC7EFF50068E01C /* ScoresView.swift in Sources */,
+				8B7681E02BC6BC98003B9541 /* BackgroundView.swift in Sources */,
+				8B7681DA2BC6A44C003B9541 /* GameScene.swift in Sources */,
 				8B7681CA2BC6A167003B9541 /* _CatchApp.swift in Sources */,
+				8B7681DC2BC6A456003B9541 /* GameManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,11 +321,13 @@
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-Catch-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +352,13 @@
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-Catch-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
